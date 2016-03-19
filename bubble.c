@@ -29,7 +29,7 @@ void bubble_sort(List **head)
 
     sub_for_times = num_list - 1;
 
-    for (*head && (*head)->next; i < sub_for_times; i++) {
+    for (; i < sub_for_times; i++) {
         sub_head = *head;
         sub_for_Max = num_list - (i + 1);
         pre_sub_head = head;
